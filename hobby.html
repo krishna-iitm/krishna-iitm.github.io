@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krishnakumar's Hobbies</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Hobby-Time</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+
+<div class="activity-section">
+  <h2>Carnatic Singing</h2>
+  <p>
+    I am passionate about Carnatic singing, a classical music tradition of South India.
+    Singing helps me connect with the rich cultural heritage and brings joy to my soul.
+  </p>
+  <!-- <img src="carnatic_singing.jpg" alt="Carnatic Singing Image"> -->
+</div>
+
+<div class="activity-section">
+  <h2>Long-Distance Cycling</h2>
+  <p>
+    Long-distance cycling is not just a hobby; it's an adventurous journey for me.
+    Exploring new places, connecting with nature, and staying fit are some of the reasons I love cycling.
+  </p>
+  <!-- <img src="cycling.jpg" alt="Cycling Image"> -->
+</div>
+
+<div class="activity-section">
+  <h2>Traveling Alone to Ajanta and Ellora Caves</h2>
+  <p>
+    Traveling solo to historic places like Ajanta and Ellora Caves is a unique experience.
+    It allows me to immerse myself in the beauty of ancient art and architecture.
+  </p>
+  <!-- <img src="ajanta_ellora.jpg" alt="Ajanta and Ellora Image"> -->
+</div>
+
+<div class="activity-section">
+  <h2>Reading 'Agananooru'</h2>
+  <p>
+    'Agananooru' is a Tamil classic that I enjoy reading. It offers insights into ancient Tamil literature
+    and provides a glimpse into the cultural richness of our heritage.
+  </p>
+  <!-- <img src="agananooru.jpg" alt="Agananooru Image"> -->
+</div>
+
+<!-- <div class="slideshow-container">
+  <div class="mySlides">
+    <img src="res/img/img1.jp2" alt="Slideshow Image 1">
+  </div>
+
+  <div class="mySlides">
+    <img src="res/img/img2.jp2" alt="Slideshow Image 2">
+  </div>
+
+
+  <div class="mySlides">
+    <img src="res/img/img3.jp2" alt="Slideshow Image 3">
+  </div>
+
+
+  <div class="mySlides">
+    <img src="res/img/img4.jp2" alt="Slideshow Image 4">
+  </div>
+
+
+  <div class="mySlides">
+    <img src="res/img/img5.jp2" alt="Slideshow Image 5">
+  </div>
+
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div> -->
+</section>      
+    </main>
+    <footer>
+      <p>&copy; 2023 Krishnakumar G. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
+
+
+
+<!-- Add this section to your existing HTML file -->
+
+
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function showSlides(n) {
+    let i;
+    const slides = document.getElementsByClassName("mySlides");
+
+    if (n > slides.length) {
+      slideIndex = 1;
+    }
+
+    if (n < 1) {
+      slideIndex = slides.length;
+    }
+
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+  }
+</script>
