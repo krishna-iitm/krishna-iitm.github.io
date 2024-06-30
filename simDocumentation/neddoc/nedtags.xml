@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<tagfile>
+  <compound kind="class">
+    <name>App</name>
+    <filename>App.html</filename>
+  </compound>
+  <compound kind="class">
+    <name>BurstyApp</name>
+    <filename>BurstyApp.html</filename>
+  </compound>
+  <compound kind="class">
+    <name>ned.DatarateChannel</name>
+    <filename>ned.DatarateChannel.html</filename>
+  </compound>
+  <compound kind="class">
+    <name>ned.DelayChannel</name>
+    <filename>ned.DelayChannel.html</filename>
+  </compound>
+  <compound kind="class">
+    <name>IApp</name>
+    <filename>IApp.html</filename>
+  </compound>
+  <compound kind="class">
+    <name>ned.IBidirectionalChannel</name>
+    <filename>ned.IBidirectionalChannel.html</filename>
+  </compound>
+  <compound kind="class">
+    <name>ned.IdealChannel</name>
+    <filename>ned.IdealChannel.html</filename>
+  </compound>
+  <compound kind="class">
+    <name>ned.IUnidirectionalChannel</name>
+    <filename>ned.IUnidirectionalChannel.html</filename>
+  </compound>
+  <compound kind="class">
+    <name>L2Queue</name>
+    <filename>L2Queue.html</filename>
+  </compound>
+  <compound kind="class">
+    <name>networkTopoInfo</name>
+    <filename>networkTopoInfo.html</filename>
+  </compound>
+  <compound kind="class">
+    <name>Node</name>
+    <filename>Node.html</filename>
+  </compound>
+  <compound kind="class">
+    <name>RandomGraph</name>
+    <filename>RandomGraph.html</filename>
+  </compound>
+  <compound kind="class">
+    <name>Routing</name>
+    <filename>Routing.html</filename>
+  </compound>
+</tagfile>
